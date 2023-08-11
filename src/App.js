@@ -1,14 +1,19 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Components/Layout";
-import Create from "./Components/Create";
-import Read from "./Components/Read";
-import Delete from "./Components/Delete"; // contacts delete
-import NoPage from "./Components/NoPage";
-import Update from "./Components/Update"; //accounts update
+import React from 'react';
+import ReactDOM from 'react-dom';
+// import { useDispatch } from 'react-redux';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './Components/Layout';
+import Create from './Components/Create';
+import Read from './Components/Read';
+import Delete from './Components/Delete';
+import NoPage from './Components/NoPage';
+import Update from './Components/Update';
+// import { Provider } from 'react-redux'; // Import Provider from 'react-redux'
+// import store from './Redux/store'; // Import your Redux store
 
 export default function App() {
   return (
+    // <Provider store={store}> 
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -21,7 +26,9 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  );
+    // </Provider>
+    );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />); // Render the App component using root.render()
