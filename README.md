@@ -32,11 +32,11 @@ Now that you have the repository ready and the API set up, let's go through the 
 
 ### Install Dependencies:
 Open your terminal/command prompt and navigate to the project's directory. Run the following command to install the required dependencies:
-npm install
+```npm install```
 
 ### Start the API:
 Once the dependencies are installed, run the following command to start the API server:
-npm run start
+```npm run start```
 
 ## That's It!
 You're all set to start using the CRUD API on your local machine. By following these simple steps, you've successfully set up the environment and started the API server. You can now begin interacting with the API and utilizing its features for your projects.
