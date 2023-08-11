@@ -28,19 +28,18 @@ Clone or Download the Repository: Start by cloning the CRUD API repository from 
 Follow API Setup Instructions: Follow the instructions provided in the repository's documentation to set up the web API properly on your machine. This usually involves installing any necessary dependencies and configuring the environment.
 
 ## Installation and Setup
-Now that you have the repository ready and the API set up, let's go through the installation and setup process.
+Now that you have the repository ready, let's go through the installation and setup process.
 
 ### Install Dependencies:
 Open your terminal/command prompt and navigate to the project's directory. Run the following command to install the required dependencies:
 ```npm install```
 
 ### Start the API:
-Once the dependencies are installed, run the following command to start the API server:
+Once the dependencies are installed, run the following command to start the Project:
 ```npm run start```
 
 ## That's It!
-You're all set to start using the CRUD API on your local machine. By following these simple steps, you've successfully set up the environment and started the API server. You can now begin interacting with the API and utilizing its features for your projects.
 
-If you encounter any issues during setup or usage, please refer to the repository's documentation or seek assistance from the project's maintainers.
+If you encounter any issues during setup or usage, please refer to the repository's documentation or reachout to me.
 
-Thank you for choosing the CRUD API by RichardMarkRoss. Happy coding!
+Happy coding!
