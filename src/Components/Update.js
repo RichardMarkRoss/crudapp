@@ -3,9 +3,9 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
-const Add = () => {
+const Update = () => {
     return <div>
-    <h1>Add</h1>
+    <h1>Update</h1>
     
     <Form>
     <Row className="mb-3">
@@ -40,4 +40,4 @@ const Add = () => {
     </div>;
   };
   
-  export default Add;
+  export default Update;

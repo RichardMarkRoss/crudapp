@@ -7,7 +7,7 @@ const Layout = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Your App Name
+            C.R.U.D.
           </Link>
           <button
             className="navbar-toggler"
@@ -23,23 +23,23 @@ const Layout = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Home
+                <Link className="nav-link" to="/create">
+                  Create
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/add">
-                  Add
+                <Link className="nav-link" to="/read">
+                  Read
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/accounts">
-                  Accounts
+                <Link className="nav-link" to="/update">
+                  Update
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  Contact
+                <Link className="nav-link" to="/delete">
+                  Delete
                 </Link>
               </li>
             </ul>
